@@ -103,7 +103,7 @@ p {
 @media (min-width: 1024px) {
     .container {
         display: flex;
-        width: 50%;
+        width: 70%;
     }
 
     picture img {
@@ -129,5 +129,19 @@ p {
 
     .price #price1 {
         font-size: 36px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        display: flex;
+        width: 50%;
+    }
+}
+
+@media (min-width: 2560px) {
+    .container {
+        display: flex;
+        width: 30%;
     }
 }
